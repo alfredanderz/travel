@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Inicio from "./pages/Inicio.jsx";
+import Login from "./pages/login.jsx"; // 👈 importa el componente Login
 import { useState } from "react";
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
         >
           <Routes>
             <Route path="/" element={<Inicio />} />
+            <Route path="/login" element={<Login />} /> {/* ✅ nueva ruta */}
           </Routes>
         </div>
       </div>
