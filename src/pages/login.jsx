@@ -218,9 +218,7 @@ export default function Login() {
             Regresar
           </button>
 
-          <p className="signup-text">
-            ¿No tienes cuenta? <a href="/signup">Regístrate</a>
-          </p>
+          <p className="signup-text"></p>
         </div>
       </div>
     </>
