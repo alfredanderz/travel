@@ -1,44 +1,89 @@
 export default function Inicio() {
   return (
-    <>
-      {/* 1. Fondo de Imagen a Pantalla Completa (Fijo) */}
-      <div className="fixed inset-0 z-0">
-        <img
-          src="/globo.png"
-          alt="Globo de viaje - Fondo"
-          // Clases de Tailwind para que la imagen cubra toda la ventana
-          className="w-full h-full object-cover"
-        />
-        {/* Opcional: Capa oscura para que el texto resalte mejor */}
-        <div className="absolute inset-0 bg-black opacity-30"></div>
-      </div>
-
-      {/* 2. Contenedor de Contenido (Texto) con Scroll */}
-      <div className="relative z-10 min-h-screen">
-        <div className="p-6 text-white">
-          {" "}
-          {/* Agregamos text-white para que se vea sobre la imagen */}
-          {/* Título */}
-          <h1 className="text-2xl font-bold mb-6">¡Viaja y Explora!</h1>
-          {/* Párrafo */}
-          <p style={{ fontSize: "22px" }}>
-            Explora, acumula puntos y obtén tokens verificables por cada lugar
-            que visites
-          </p>
-        </div>
-
-        {/* 3. Contenido de Relleno para Habilitar el Scroll */}
-        {/* Este div simula contenido adicional. Bórralo si tienes contenido real. */}
-        <div className="mt-96 pt-96 bg-white/70 p-6">
-          <p className="text-black">
-            Este es contenido que aparecerá después y que permite el scroll. Si
-            el contenido excede la altura de la pantalla, la barra de scroll se
-            habilitará.
-          </p>
-          <div style={{ height: "50vh" }}></div>{" "}
-          {/* Más espacio para asegurar el scroll */}
-        </div>
-      </div>
-    </>
+    <div
+      style={{
+        margin: 0,
+        padding: 0,
+        width: "100vw",
+        marginLeft: "-14vw",
+        overflow: "hidden",
+      }}
+    >
+      <img
+        src="/1.png"
+        alt="Sección 1"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />
+      <img
+        src="/2.png"
+        alt="Sección 2"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />
+      <img
+        src="/3.png"
+        alt="Sección 3"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />
+      <img
+        src="/4.png"
+        alt="Sección 4"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />
+      <img
+        src="/5.png"
+        alt="Sección 5"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />
+      <img
+        src="/6.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />
+      <img
+        src="7.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />{" "}
+      <img
+        src="/8.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />{" "}
+      <img
+        src="/9.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />{" "}
+      <img
+        src="/10.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />{" "}
+      <img
+        src="/11.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />{" "}
+      <img
+        src="/12.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />{" "}
+      <img
+        src="/13.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />{" "}
+      <img
+        src="/14.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />{" "}
+      <img
+        src="/15.png"
+        alt="Sección 6"
+        style={{ display: "block", width: "100%", margin: 0, padding: 0 }}
+      />
+    </div>
   );
 }
